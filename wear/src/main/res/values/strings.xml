@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Slow</string>
+    <string name="my_analog_name">Slow</string>
+    <string name="title_activity_slow_watch_face_config">SlowWatchFaceConfigActivity</string>
+    <string name="title_activity_slow_watch_face_date_time_config">
+        SlowWatchFaceDateTimeConfigActivity
+    </string>
+    <string name="title_activity_slow_watch_face_background_config">
+        SlowWatchFaceBackgroundConfigActivity
+    </string>
+    <string name="title_activity_slow_watch_face_accent_config">SlowWatchFaceAccentConfigActivity
+    </string>
+</resources>

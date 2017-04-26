@@ -1,0 +1,18 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Slow</string>
+
+    <string name="action_rate">Rate</string>
+    <string name="action_share">Share</string>
+
+    <string name="style_round">Round</string>
+    <string name="style_square">Square</string>
+
+    <string name="share_text">Checkout this watch face I am using:
+        <xliff:g id="condition">%1$s</xliff:g></string>
+
+    <string name="title_no_device_connected">No wearable device is currently connected.</string>
+    <string name="ok_no_device_connected">OK</string>
+
+    <string name="title_no_apps_to_show_app">No supported apps found.</string>
+    <string name="title_no_apps_to_share_app">No supported apps found for sharing this app.</string>
+</resources>

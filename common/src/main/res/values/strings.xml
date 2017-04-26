@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">common</string>
+
+    <!--Slow Watch Face Config Activity list items-->
+    <string name="customize_watch_face">Customize</string>
+    <string name="label_theme">Theme</string>
+    <string name="label_accent">Accent</string>
+    <string name="label_date_time">Date/Time</string>
+
+    <!--Background color labels-->
+    <string name="background_dark">Dark</string>
+    <string name="background_light">Light</string>
+
+    <!--Accent color labels-->
+    <string name="accent_red">Red</string>
+    <string name="accent_pink">Pink</string>
+    <string name="accent_purple">Purple</string>
+    <string name="accent_indigo">Indigo</string>
+    <string name="accent_blue">Blue</string>
+    <string name="accent_cyan">Cyan</string>
+    <string name="accent_teal">Teal</string>
+    <string name="accent_green">Green</string>
+    <string name="accent_lime">Lime</string>
+    <string name="accent_yellow">Yellow</string>
+    <string name="accent_amber">Amber</string>
+    <string name="accent_orange">Orange</string>
+
+    <!--Date time config labels-->
+    <string name="show_none">None</string>
+    <string name="show_date">Show Date</string>
+    <string name="show_time">Show Time</string>
+    <string name="show_date_time">Show Date and Time</string>
+
+    <!--Fonts-->
+    <string name="font_roboto_bold">font/Roboto-Bold.ttf</string>
+    <string name="font_roboto_light">font/Roboto-Light.ttf</string>
+    <string name="font_roboto_regular">font/Roboto-Regular.ttf</string>
+    <string name="font_roboto_thin">font/Roboto-Thin.ttf</string>
+</resources>

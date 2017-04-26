@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Background colors to choose from.-->
+    <color name="background_dark">#FF000000</color>
+    <color name="background_light">#FFFFFFFF</color>
+
+    <!--Primary colors to complement the background colors.-->
+    <color name="primary_dark">#FFFFFF</color>
+    <color name="primary_light">#000000</color>
+
+    <!--Secondary colors to complement the background colors-->
+    <color name="secondary_dark">#FFC0C0C0</color>
+    <color name="secondary_light">#757575</color>
+
+    <!--Accent colors to choose from.-->
+    <color name="accent_red">#FFFF5252</color>
+    <color name="accent_pink">#FFFF4081</color>
+    <color name="accent_purple">#FFE040FB</color>
+    <color name="accent_indigo">#FF536DFE</color>
+    <color name="accent_blue">#FF448AFF</color>
+    <color name="accent_cyan">#FF18FFFF</color>
+    <color name="accent_teal">#FF64FFDA</color>
+    <color name="accent_green">#FF69F0AE</color>
+    <color name="accent_lime">#FFEEFF41</color>
+    <color name="accent_yellow">#FFFFFF00</color>
+    <color name="accent_amber">#FFFFD740</color>
+    <color name="accent_orange">#FFFFAB40</color>
+</resources>

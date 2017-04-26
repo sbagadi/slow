@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SlowWatchFaceView">
+        <attr name="backgroundTheme" format="enum">
+            <enum name="dark" value="0"/>
+            <enum name="light" value="1"/>
+        </attr>
+        <attr name="accentColor" format="enum">
+            <enum name="red" value="0"/>
+            <enum name="pink" value="1"/>
+            <enum name="purple" value="2"/>
+            <enum name="indigo" value="3"/>
+            <enum name="blue" value="4"/>
+            <enum name="cyan" value="5"/>
+            <enum name="teal" value="6"/>
+            <enum name="green" value="7"/>
+            <enum name="lime" value="8"/>
+            <enum name="yellow" value="9"/>
+            <enum name="amber" value="10"/>
+            <enum name="orange" value="11"/>
+        </attr>
+        <attr name="showDateTime" format="enum">
+            <enum name="none" value="0"/>
+            <enum name="date" value="1" />
+            <enum name="time" value="2" />
+            <enum name="date_and_time" value="3" />
+        </attr>
+    </declare-styleable>
+</resources>

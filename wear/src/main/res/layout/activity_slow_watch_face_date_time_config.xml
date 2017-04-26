@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/watch_boxInsetLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bagadi.apps.slow.SlowWatchFaceConfigActivity"
+    tools:deviceIds="wear">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        app:layout_box="left|right|bottom">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textColor="@color/config_activity_header_text_color"
+                android:textSize="24sp"
+                app:layout_box="left|top" />
+
+            <RadioGroup
+                android:id="@+id/customize_listView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radio_none"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="16dp"
+                    android:onClick="onClick"
+                    android:text="@string/show_none"
+                    android:textColor="@color/customize_label_color"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/radio_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="16dp"
+                    android:onClick="onClick"
+                    android:text="@string/show_date"
+                    android:textColor="@color/customize_label_color"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/radio_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="16dp"
+                    android:onClick="onClick"
+                    android:text="@string/show_time"
+                    android:textColor="@color/customize_label_color"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/radio_date_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="16dp"
+                    android:onClick="onClick"
+                    android:text="@string/show_date_time"
+                    android:textColor="@color/customize_label_color"
+                    android:textSize="18sp" />
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+</android.support.wearable.view.BoxInsetLayout>
